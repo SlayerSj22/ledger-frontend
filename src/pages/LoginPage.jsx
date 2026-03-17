@@ -8,6 +8,7 @@ function LoginPage() {
   const [email,setEmail] = useState("");
   const [password,setPassword] = useState("");
   const serverUrl=import.meta.env.VITE_API_URL;
+  console.log("SERVER URL:", serverUrl);
 
   const navigate = useNavigate();
 
